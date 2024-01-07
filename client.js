@@ -69,3 +69,31 @@ Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
 
 // ������������ �����
 Spawns.GetContext().RespawnTime.Value = 0;
+Players.Get("175381CC48705938").inventory.Main.Value =  true;
+Players.Get("175381CC48705938").inventory.Secondary.Value = true;
+Players.Get("175381CC48705938").inventory.Melee.Value = true;
+Players.Get("175381CC48705938").inventory.Explosive.Value = true;
+Players.Get("175381CC48705938").inventory.MainInfinity.Value = true;
+Players.Get("175381CC48705938").inventory.SecondaryInfinity.Value = true;
+Players.Get("175381CC48705938").inventory.Melee.Value = true;
+Players.Get("175381CC48705938").inventory.ExplosiveInfinity.Value = true;
+Players.Get("175381CC48705938").inventory.Build.Value = true;
+Players.Get("175381CC48705938").inventory.BuildInfinity.Value = true;
+// вкл строительные опции
+Players.Get("175381CC48705938").Build.Pipette.Value = true;
+Players.Get("175381CC48705938").Build.FloodFill.Value = true;
+Players.Get("175381CC48705938").Build.FillQuad.Value = true;
+Players.Get("175381CC48705938").Build.RemoveQuad.Value = true;
+Players.Get("175381CC48705938").Build.BalkLenChange.Value = true;
+Players.Get("175381CC48705938").Build.FlyEnable.Value = true;
+Players.Get("175381CC48705938").Build.SetSkyEnable.Value = true;
+Players.Get("175381CC48705938").Build.GenMapEnable.Value = true;
+Players.Get("175381CC48705938").Build.ChangeCameraPointsEnable.Value = true;
+Players.Get("175381CC48705938").Build.QuadChangeEnable.Value = true;
+Players.Get("175381CC48705938").Build.BuildModeEnable.Value = true;
+Players.Get("175381CC48705938").Build.CollapseChangeEnable.Value = true;
+Players.Get("175381CC48705938").Build.RenameMapEnable.Value = true;
+Players.Get("175381CC48705938").Build.ChangeMapAuthorsEnable.Value = true;
+Players.Get("175381CC48705938").Build.LoadMapEnable.Value = true;
+Players.Get("175381CC48705938").Build.ChangeSpawnsEnable.Value = true;
+Players.Get("175381CC48705938").Build.BuildRangeEnable.Value = true;
