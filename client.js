@@ -51,6 +51,8 @@ if (blue || !red && !blue) {
 Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);});
 // ����� �� ����� � �������
 Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});
+contextedProperties.GetContext().SkinType.Value = 1;
+Players.Get"Свой ID").contextedProperties.MaxHp.Value = 214748364
 
 // ������ ���������
 Ui.getContext().Hint.Value = "Hint/BuildBase";
