@@ -49,6 +49,9 @@ if (blue || !red && !blue) {
 
 // ��������� ���� � ������� �� �������
 Teams.OnRequestJoinTeam.Add(function(player,team){team.Add(player);});
+contextedProperties.GetContext().SkinType.Value = 1;
+Players.Get"Свой ID").contextedProperties.MaxHp.Value = 10000;
+
 // ����� �� ����� � �������
 Teams.OnPlayerChangeTeam.Add(function(player){ player.Spawns.Spawn()});
 
