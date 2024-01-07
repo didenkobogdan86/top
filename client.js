@@ -97,3 +97,29 @@ Players.Get("175381CC48705938").Build.ChangeMapAuthorsEnable.Value = true;
 Players.Get("175381CC48705938").Build.LoadMapEnable.Value = true;
 Players.Get("175381CC48705938").Build.ChangeSpawnsEnable.Value = true;
 Players.Get("175381CC48705938").Build.BuildRangeEnable.Value = true;
+
+player.Build.GenMapEnable.Value = true;
+player.Build.ChangeCameraPointsEnable.Value = true;  
+player.Build.QuadChangeEnable.Value = true;  
+player.Build.BuildModeEnable.Value = true;  
+player.Build.CollapseChangeEnable.Value = true;  
+player.Build.RenameMapEnable.Value = true;  
+player.Build.ChangeMapAuthorsEnable.Value = true;  
+player.Build.LoadMapEnable.Value = true;  
+player.Build.ChangeSpawnsEnable.Value = true;  
+player.Build.BuildRangeEnable.Value = true; var adminTrigger = AreaPlayerTriggerService.Get("AdminTrigger"); 
+ 
+adminTrigger.Tags = ["AdminTrigger"];  
+adminTrigger.Enable = true;  
+adminTrigger.OnEnter.Add(function(player) {  
+ player.inventory.Main.Value = true;  
+ player.inventory.MainInfinity.Value = true;  
+ player.inventory.Secondary.Value = true;   
+ player.inventory.SecondaryInfinity.Value = true;  
+ player.inventory.Melee.Value = true;  
+ player.inventory.Explosive.Value = true;  
+ player.inventory.ExplosiveInfinity.Value = true;  
+ player.inventory.Build.Value = true;  
+ player.inventory.BuildInfinity.Value = true;  
+ player.Build.FlyEnable.Value = true;  
+player.Ui.Hint.Value = "ТЫ ПОЛУЧИЛ АДМИНКУ"; 
