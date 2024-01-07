@@ -40,10 +40,10 @@ if (blue || !red && !blue) {
 	if(GameMode.Parameters.GetBool("BlueHasNothing")){
 		var inventory = Inventory.GetContext();
 		Teams.Get("Blue").Inventory.Main.Value = false;
-		Teams.Get("Blue").Inventory.Secondary.Value = true;
+		Teams.Get("Blue").Inventory.Secondary.Value = false;
 		Teams.Get("Blue").Inventory.Melee.Value = false;
 		Teams.Get("Blue").Inventory.Explosive.Value = false;
-		Teams.Get("Blue").Inventory.Build.Value = true;
+		Teams.Get("Blue").Inventory.Build.Value = false;
 	}
 }
 
@@ -57,12 +57,12 @@ Ui.getContext().Hint.Value = "Hint/BuildBase";
 
 // ������������ ���������
 var inventory = Inventory.GetContext();
-inventory.MainInfinity.Value = true;
-inventory.SecondaryInfinity.Value = true;
-inventory.Melee.Value = true;
-inventory.ExplosiveInfinity.Value = true;
-inventory.Build.Value = true;
-inventory.BuildInfinity.Value = true;
+inventory.MainInfinity.Value = false;
+inventory.SecondaryInfinity.Value = false;
+inventory.Melee.Value = false;
+inventory.ExplosiveInfinity.Value = false;
+inventory.Build.Value = false;
+inventory.BuildInfinity.Value = false;
 
 // ��������� ��� ������ �����
 Build.GetContext().BlocksSet.Value = BuildBlocksSet.AllClear;
