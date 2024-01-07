@@ -1,4 +1,4 @@
- ��������� ��������� �������� �������
+// ��������� ��������� �������� �������
 Damage.GetContext().DamageOut.Value = GameMode.Parameters.GetBool("Damage");
 BreackGraph.OnlyPlayerBlocksDmg = GameMode.Parameters.GetBool("PartialDesruction");
 BreackGraph.WeakBlocks = GameMode.Parameters.GetBool("LoosenBlocks");
@@ -58,9 +58,9 @@ Ui.getContext().Hint.Value = "Hint/BuildBase";
 // ������������ ���������
 var inventory = Inventory.GetContext();
 inventory.Main.Value = true;
-inventory.Secondary.Value = true;
+inventory.Secondary.Value = false;
 inventory.Melee.Value = true;
-inventory.Explosive.Value = true;
+inventory.Explosive.Value = false;
 inventory.Build.Value = true;
 inventory.BuildInfinity.Value = true;
 
